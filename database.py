@@ -4,7 +4,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from urllib.parse import quote_plus
 
 MYSQL_USER = "root"
-MYSQL_PASSWORD = quote_plus("PutYourPasswordHere")
+MYSQL_PASSWORD = quote_plus("PutYourPasswordHere") # Best Practice use in dotenv file
 MYSQL_HOST = "localhost"
 MYSQL_PORT = "3306"
 MYSQL_DB = "fastapi"
