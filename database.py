@@ -11,7 +11,7 @@ MYSQL_DB = "fastapi"
 
 DATABASE_URL = f"mysql+pymysql://{MYSQL_USER}:{MYSQL_PASSWORD}@{MYSQL_HOST}:{MYSQL_PORT}/{MYSQL_DB}"
 
-# Connection
+# Connectioncks
 engine = create_engine(DATABASE_URL)
 
 ## Session 

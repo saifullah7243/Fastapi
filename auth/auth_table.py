@@ -1,5 +1,5 @@
 from auth_database import Base, engine
-import models
+from auth import models
 
 Base.metadata.create_all(bind=engine)
 print("Table created successfully")
